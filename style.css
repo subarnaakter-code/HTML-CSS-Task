@@ -18,6 +18,7 @@
   height:350px;
   margin:5px 5px;
   padding:20px 20px;
+  border:5px solid whitesmoke;
 }
 
 #user-name{
@@ -52,6 +53,7 @@
   margin:5px 5px;
   background-color: whitesmoke;
   border:none;
+  border:5px solid whitesmoke;
   
   
   
