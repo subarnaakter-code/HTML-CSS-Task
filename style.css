@@ -1,0 +1,57 @@
+*{
+  margin:0auto;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+.container{
+  
+  background-color: whitesmoke;
+  padding:40px 20px;
+  margin:0 auto;
+  height:470px;
+  width:370px;
+}
+.header{
+  background-color: white;
+  text-align: center;
+  height:350px;
+  margin:5px 5px;
+  padding:20px 20px;
+}
+
+#user-name{
+  height:35px;
+  width:90%;
+  margin:5px 5px;
+  padding:10px;
+  border:1px solid black
+  
+}
+
+#password{
+  height:35px;
+  width:90%;
+  margin:5px 5px;
+  padding:10px;
+  border:1px solid black
+}
+#login{
+  height:35px;
+  width:90%;
+  margin:15px 10px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+}
+
+#Demo-Login{
+  height:60px;
+  width:90%;
+  margin:5px 5px;
+  background-color: whitesmoke;
+  border:none;
+  
+  
+  
+}
