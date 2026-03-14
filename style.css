@@ -11,6 +11,7 @@
   margin:0 auto;
   height:470px;
   width:370px;
+  border-radius:10px;
 }
 .header{
   background-color: white;
@@ -19,6 +20,8 @@
   margin:5px 5px;
   padding:20px 20px;
   border:5px solid whitesmoke;
+  border-radius:10px;
+  
 }
 
 #user-name{
@@ -26,6 +29,8 @@
   width:90%;
   margin:5px 5px;
   padding:10px;
+  border-radius:10px;
+  border:0.5px solid gray;
   
   
 }
@@ -35,7 +40,8 @@
   width:90%;
   margin:5px 5px;
   padding:10px;
-  
+  border-radius:10px;
+  border:0.5px solid gray;
 }
 #login{
   height:35px;
@@ -45,6 +51,7 @@
   padding:10px;
   color: white;
   border: none;
+  border-radius:10px;
 }
 
 #Demo-Login{
@@ -54,7 +61,7 @@
   background-color: whitesmoke;
   border:none;
   border:5px solid whitesmoke;
-  
+  border-radius:10px;
   
   
 }
