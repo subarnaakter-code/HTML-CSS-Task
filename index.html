@@ -9,16 +9,35 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-<div class="header">
+<!-- login-section start -->
+  
+<section class="login-section box hidde" id="login-section">
 <h1>Login</h1>
 <input type="text" id="user-name" placeholder= "Enter username"/>
 <input type="password" id="password" placeholder= "Enter password"/>
-<button type="login" id="login">Login</button>
-<button type="text" id="Demo-Login"><b>Demo Login</b><br>
-  Username: admin <br>
-  Password: 1234
-</button>
+<p id="error-Msg" class="error-Msg hidden">Username or Password Missmached</p>
+<button id="login-btn">Login</button>
+<div class="demo">
+  <p class="demo-header"><strong>Demo Credentials</strong></p>
+  <p><strong>Demo Username:</strong> smdnayem</p>
+  <p><strong>Demo Password:</strong> 1234567@ </p>
 </div>
- </body>
+</section>
+
+<!--Dashboard Section Start -->
+
+<section class="dashboard-section box hidden" id="dashboard-section">
+  <h1>Welcome To Dashboard</h1>
+  <p class="welcome-text" id="welcome-text">Welcome Mr. User</p>
+  <div class="dashboard-btn">
+    <button id="theme-button">Toggle Dark/Light</button>
+    <button id="logout-button">log out</button>
+  </div>
+  </section>
+
+
+
+
+<script src="main.js"></script>
+</body>
 </html>
