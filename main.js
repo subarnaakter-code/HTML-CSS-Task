@@ -1,5 +1,5 @@
-const demoUsername ="smdnayem";
-const demoPassword ="1234567@";
+const demoUsername ="subarna";
+const demoPassword ="123456@";
 const loginSection = document.getElementById("login-section");
 
 const errorMsg = document.getElementById("error-Msg");
@@ -35,7 +35,7 @@ loginBtn.addEventListener("click",function(){
 function showDashboard(username){
 loginSection.classList.add("hidden");
 dashboardSection.classList.remove("hidden");
-welcomeText.innerText = "Welcome Mr. " + username;
+welcomeText.innerText = "Welcome Ms. " + username;
   
 }
 logOutButton.addEventListener("click", ()=>{
